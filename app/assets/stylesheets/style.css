@@ -1,0 +1,11 @@
+h1 {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 20%;
+  font-size: 5em;
+}
+
+body {
+  background-color: #212020;
+}
