@@ -9,6 +9,10 @@
     font-style: normal;
 }
 
+body {
+  text-align: center;
+}
+
 .main {
   position: absolute;
   width: 100%;
@@ -21,15 +25,100 @@
   color: #202020;
 }
 
-.menu {
+.right {
+  width: 75%;
+  margin-right: 15%;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 4em;
+  color: #333333;
+}
+
+img.profile {
+  margin-top: 30px;
+  height: 120px;
+  width: 120px;
+  float: right;
+  border-radius: 50%;
+}
+
+ul.nav {
+  margin-left: 0;
+}
+
+ul.nav li {
+  color: #282828;
+  font-size: 1.2em;
+  display: inline-block;
+  font-weight: bold;
+  border-bottom: 2px solid #282828;
+  margin-right: 5%;
+  padding: 0 0 5px;
+}
+
+/*p.intro:hover {
+  color: #00ADB1;
+}*/
+
+p.intro {
+  margin-top: 5%;
+  font-size: 1.5em;
+  color: #929292;
+}
+
+img.portfolio {
   float: left;
 }
 
-.box {
-  height: 200px;
-  width: 200px;
-  background-color: black;
-  border-top: 1px solid white;
+.greyscale {
+  filter: grayscale(100%); /* Current draft standard */
+  -webkit-filter: grayscale(100%); /* New WebKit */
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%); /* Not yet supported in Gecko, Opera or IE */
+  filter: url(resources.svg#desaturate); /* Gecko */
+  filter: gray; /* IE */
+  -webkit-filter: grayscale(1); /* Old WebKit */
+}
+
+.greyscale:hover {
+  filter: grayscale(0%); /* Current draft standard */
+  -webkit-filter: grayscale(0%); /* New WebKit */
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%); /* Not yet supported in Gecko, Opera or IE */
+  filter: url(resources.svg#desaturate); /* Gecko */
+  filter: gray; /* IE */
+  -webkit-filter: grayscale(0); /* Old WebKit */
+}
+
+.project {
+  display: block;
+  width: 75%;
+  height: 75%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+p.explanation {
+  font-size: 1.5em;
+  clear: both;
+}
+
+h2.title {
+  margin-top: 50px;
+}
+
+img.github {
+  height: 50px;
+  width: 50px;
+}
+
+div.footer {
+  height: 100px;
+  width: 100%;
 }
 
 
