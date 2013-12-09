@@ -18,3 +18,6 @@
 //= require underscore
 //= require backbone
 //= require app
+
+//= require_tree ../../../vendor/assets/foundation/js/.
+
