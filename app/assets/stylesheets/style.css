@@ -83,6 +83,7 @@ p.intro:hover {
 
 img.portfolio {
   float: left;
+  margin-bottom: 40px;
 }
 
 .greyscale {
@@ -121,7 +122,7 @@ p.explanation {
 }
 
 h2.title {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 img.github {
