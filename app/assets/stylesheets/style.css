@@ -36,10 +36,10 @@ h1.helvetica.title {
   margin-right: 15%;
 }
 
-h1 {
+h1.helvetica {
   font-weight: bold;
   font-size: 4em;
-  color: #333333;
+  color: #222222;
   text-align: center;
 }
 
@@ -87,14 +87,14 @@ img.portfolio {
 }
 
 .greyscale {
-  filter: grayscale(100%); /* Current draft standard */
-  -webkit-filter: grayscale(100%); /* New WebKit */
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%); /* Not yet supported in Gecko, Opera or IE */
+  filter: grayscale(80%); /* Current draft standard */
+  -webkit-filter: grayscale(80%); /* New WebKit */
+  -moz-filter: grayscale(80%);
+  -ms-filter: grayscale(80%);
+  -o-filter: grayscale(80%); /* Not yet supported in Gecko, Opera or IE */
   filter: url(resources.svg#desaturate); /* Gecko */
   filter: gray; /* IE */
-  -webkit-filter: grayscale(1); /* Old WebKit */
+  -webkit-filter: grayscale(0.8); /* Old WebKit */
 }
 
 .greyscale:hover {
