@@ -1,68 +1,50 @@
-%div.main.helvetica
+.main.helvetica
 
-  %div.right
+  .right
 
-    / %img.profile{src: 'photo-2.PNG'}
+    %h1.helvetica.title Alex Hint
 
-    %h1.helvetica.title Hello
-
-    / %ul.nav
-    /   %li nice to meet you
-    /   %li check it out
-    /   %li hit me up
-
-    %p.intro More about me % Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, cupiditate voluptatum iusto iste rerum laudantium blanditiis libero quidem porro in optio tenetur delectus cumque enim maiores. Laboriosam, blanditiis alias enim.
-
-    %p.intro More about me % Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, cupiditate voluptatum iusto iste rerum laudantium blanditiis libero quidem porro in optio tenetur delectus cumque enim maiores. Laboriosam, blanditiis alias enim.
-
+    %p.intro I build awesome sh#t.
+    = github_link('')
 
 
     %hr
-    %div.project
-      %a.link{href: 'http://chattywdi.herokuapp.com/', target: 'blank'}
-        %img.portfolio.greyscale{src: 'chatty.png'}
+    .project
+      = project_link('chatty.png', 'http://chattywdi.herokuapp.com/')
       %h2.title chatty
       %p.explanation Hello
-      %a.link{href: 'https://github.com/DeProdigy/chatty', target: 'blank'}
-        %img.github{src: 'github.png'}
+      = github_link('/chatty')
 
     %hr
-    %div.project
-      %a.link{href: 'http://bubldraw.herokuapp.com/', target: 'blank'}
-        %img.portfolio.greyscale{src: 'Bubldraw.png'}
+    .project
+      = project_link('Bubldraw.png', 'http://bubldraw.herokuapp.com/')
       %h2.title BublDraw
       %p.explanation Hello
-      %a.link{href: 'https://github.com/DeProdigy/BublDraw', target: 'blank'}
-        %img.github{src: 'github.png'}
+      = github_link('/BublDraw')
       %hr
 
-    %div.project
-      %a.link{href: 'http://hintr.co/', target: 'blank'}
-        %img.portfolio.greyscale{src: 'Hintr.png'}
-      %h2.title hintr
-      %p.explanation Hello
-      %a.link{href: 'https://github.com/DeProdigy/hintr', target: 'blank'}
-        %img.github{src: 'github.png'}
-      %hr
-
-    %div.project
-      %a.link{href: 'http://mate-marry-murder.herokuapp.com/', target: 'blank'}
-        %img.portfolio.greyscale{src: 'MateMarrryMurderApp.png'}
+      .project
+      = project_link('MateMarrryMurderApp.png', 'http://mate-marry-murder.herokuapp.com')
       %h2.title Mate Marry Murder
       %p.explanation Hello
-      %a.link{href: 'https://github.com/DeProdigy/first-project/tree/master/mate_marrry_murder_app', target: 'blank'}
-        %img.github{src: 'github.png'}
+      = github_link('/first-project/tree/master/mate_marrry_murder_app')
       %hr
 
-    %div.project
-      %a.link{href: 'http://hashstash.herokuapp.com/', target: 'blank'}
-        %img.portfolio.greyscale{src: 'HashHub.png'}
+    .project
+      = project_link('Hintr.png', 'http://hintr.co/')
+      %h2.title hintr
+      %p.explanation Hello
+      = github_link('/hintr')
+      %hr
+
+    .project
+      = project_link('HashHub.png', 'http://hashstash.herokuapp.com')
       %h2.title Hash Stash
       %p.explanation a class website to share information and vote on relative topics
-      %a.link{href: 'https://github.com/DeProdigy/hash-stash/tree/master/hash_stash_app', target: 'new'}
-        %img.github{src: 'github.png'}
+      = github_link('/hash-stash/tree/master/hash_stash_app')
 
-    %div.footer
+    .footer
+
 
 
 
