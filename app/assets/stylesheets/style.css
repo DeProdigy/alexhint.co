@@ -20,9 +20,15 @@ body {
   z-index: 10;
 }
 
+h1.helvetica.title {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
 .helvetica {
   font-family: 'helvetica_neueultralight';
-  color: #202020;
+  color: white;
+  background-color: #F24814;
 }
 
 .right {
@@ -34,6 +40,7 @@ h1 {
   font-weight: bold;
   font-size: 4em;
   color: #333333;
+  text-align: center;
 }
 
 img.profile {
@@ -65,7 +72,13 @@ ul.nav li {
 p.intro {
   margin-top: 5%;
   font-size: 1.5em;
-  color: #929292;
+  background-color: #F24814;
+  color: white;
+}
+
+p.intro:hover {
+  background-color: #F24814;
+  color: white;
 }
 
 img.portfolio {
