@@ -31,8 +31,16 @@
   -webkit-filter: grayscale(0); /* Old WebKit */
 }
 
-body {
-  text-align:         center;
+$font-color:      white;
+
+.helvetica {
+  font-family:        'helvetica_neueultralight', arial;
+  color:              $font-color;
+  background-color:   #F24814;
+}
+
+hr {
+  margin-top:         80px;
 }
 
 .main {
@@ -40,17 +48,7 @@ body {
   width:              100%;
   top:                0;
   z-index:            10;
-}
-
-h1.helvetica.title {
-  margin-top:         10%;
-  margin-bottom:      10%;
-}
-
-.helvetica {
-  font-family:        'helvetica_neueultralight', arial;
-  color:              white;
-  background-color:   #F24814;
+  text-align:         center;
 }
 
 .right {
@@ -58,28 +56,18 @@ h1.helvetica.title {
   margin-right:       15%;
 }
 
-h1.helvetica {
+.title {
   font-weight:        bold;
   font-size:          4em;
   color:              #222222;
   text-align:         center;
+  margin-top:         10%;
+  margin-bottom:      10%;
 }
 
-p.intro {
+.intro {
   margin-top:         4%;
-  font-size:          1.8em;
-  background-color:   #F24814;
-  color:              white;
-}
-
-p.intro:hover {
-  background-color:   #F24814;
-  color:              white;
-}
-
-img.portfolio {
-  float:              left;
-  margin-bottom:      40px;
+  font-size:          2em;
 }
 
 .project {
@@ -90,27 +78,24 @@ img.portfolio {
   margin-top:         100px;
 }
 
-p.explanation {
+.explanation {
   font-size:          1.5em;
   clear:              both;
 }
 
-h2.title {
+.project-title {
   margin-top:         40px;
 }
 
-img.github {
+.github {
   height:             50px;
   width:              50px;
 }
 
-div.footer {
+.footer {
   height:             100px;
   width:              100%;
 }
 
-hr {
-  margin-top:         80px;
-}
 
 
