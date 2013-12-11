@@ -16,3 +16,6 @@ read rails asset pipe line
 
 read rails helpers docs
 
+change the email icon
+
+fix the thumbnails
