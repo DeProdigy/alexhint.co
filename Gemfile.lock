@@ -234,6 +234,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   database_cleaner
   guard-rspec
+  haml (>= 2.2.0)
   haml-rails
   jasmine
   jquery-rails

@@ -62,3 +62,5 @@ end
 gem "simplecov", :require => false, :group => :test
 gem "thin"
 gem "haml-rails"
+
+gem 'haml', '>= 2.2.0'
