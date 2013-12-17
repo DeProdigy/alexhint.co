@@ -17,6 +17,7 @@
 //= require handlebars
 //= require underscore
 //= require backbone
+//= require one-scroll
 //= require app
 
 
