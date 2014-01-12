@@ -75,29 +75,66 @@ section {
   ),
   /* bottom, image */
   url('ViddyO.png');
+}
+
+.chatty {
+  background:
+  /* top, transparent red, faked with gradient */
+  linear-gradient(
+    RGBA(255.00, 146.00, 69.00, $tint),
+    RGBA(255.00, 146.00, 69.00, $tint)
+  ),
+  /* bottom, image */
+  url('chatty.png');
+}
+
+.bubldraw {
+  background:
+  /* top, transparent red, faked with gradient */
+  linear-gradient(
+    RGBA(234.00, 74.00, 44.00, $tint),
+    RGBA(234.00, 74.00, 44.00, $tint)
+  ),
+  /* bottom, image */
+  url('Bubldraw.png');
+}
+
+.hintr {
+  background:
+  /* top, transparent red, faked with gradient */
+  linear-gradient(
+    RGBA(0.00, 190.00, 156.00, $tint),
+    RGBA(0.00, 190.00, 156.00, $tint)
+  ),
+  /* bottom, image */
+  url('Hintr.png');
+}
+
+.mmm {
+  background:
+  /* top, transparent red, faked with gradient */
+  linear-gradient(
+    RGBA(252.00, 133.00, 133.00, $tint),
+    RGBA(252.00, 133.00, 133.00, $tint)
+  ),
+  /* bottom, image */
+  url('MateMarrryMurderApp.png');
+}
+
+.hash-stash {
+  background:
+  /* top, transparent red, faked with gradient */
+  linear-gradient(
+    RGBA(49.00, 72.00, 97.00, $tint),
+    RGBA(49.00, 72.00, 97.00, $tint)
+  ),
+  /* bottom, image */
+  url('HashHub.png');
+}
+
+.background {
   background-position: center;
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
-
-.chatty {
-  background: #FF9245;
-}
-
-.bubldraw {
-  background: #E94B35;
-}
-
-.hintr {
-  background: #00BD9C;
-}
-
-.mmm {
-  background: #FA8687;
-}
-
-.hash-stash {
-  background: #324860;
-}
-
 
