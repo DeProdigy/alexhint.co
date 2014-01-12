@@ -35,12 +35,13 @@ $font-color:          white;
 $dark-color:          #222222;
 $background-color:    #F24814;
 
+
 %helvetica-font {
   font-family:        'helvetica_neueultralight', arial;
 }
 
 section {
-  background-color: $background-color;
+  // background-color: $background-color;
   text-align: center;
   display: flex;
   align-items: center;
