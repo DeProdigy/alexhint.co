@@ -12,9 +12,9 @@ module ApplicationHelper
     mail_to 'alex.hint.ah@gmail.com', image_tag('mail.png', class: 'icon')
   end
 
-  def project_link(image, link)
-    link_to image_tag(image, class: 'project-preview'), link, target: 'blank'
-  end
+  # def project_link(image, link)
+  #   link_to image_tag(image, class: 'project-preview'), link, target: 'blank'
+  # end
 
 
 end

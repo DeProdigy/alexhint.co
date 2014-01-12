@@ -12,7 +12,7 @@
 $font-color:          white;
 $dark-color:          #222222;
 $background-color:    #F24814;
-$tint:                0.97;
+$tint:                0.90;
 
 
 %helvetica-font {
@@ -20,39 +20,40 @@ $tint:                0.97;
 }
 
 section {
-  background: $background-color;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.25em;
-  .project-preview {
-    width: 65%;
-    margin: 1.5rem 0;
-  }
+  background:         $background-color;
+  text-align:         center;
+  display:            flex;
+  align-items:        center;
+  justify-content:    center;
+  font-size:          1.25em;
+  // .project-preview {
+  //   width:            65%;
+  //   margin:           1.5rem 0;
+  // }
   h2 {
-    font-size: 2.5rem;
-    color: $dark-color;
-    margin: 0;
+    font-size:        2.5rem;
+    color:            $dark-color;
+    margin:           0;
     @extend %helvetica-font;
   }
   p {
-    font-size: 1.4rem;
-    color: $font-color;
+    font-size:        1.4rem;
+    color:            $font-color;
     @extend %helvetica-font;
   }
 }
 
 .name {
-  font-size: 5rem;
-  margin: 0;
+  font-size:          5rem;
+  margin:             0;
+  color:              $dark-color;
   @extend %helvetica-font;
 }
 
 .intro {
-  font-size: 2rem;
-  padding: 0 8rem;
-  margin: 4rem 0;
+  font-size:          2rem;
+  padding:            0 8rem;
+  margin:             4rem 0;
 }
 
 .icon {
@@ -68,73 +69,63 @@ section {
 
 .viddy-o {
   background:
-  /* top, transparent red, faked with gradient */
+  // top, transparent, faked with gradient
   linear-gradient(
     RGBA(50.00, 54.00, 63.00, $tint),
     RGBA(50.00, 54.00, 63.00, $tint)
   ),
-  /* bottom, image */
+  // bottom, image
   url('ViddyO.png');
 }
 
 .chatty {
   background:
-  /* top, transparent red, faked with gradient */
   linear-gradient(
     RGBA(255.00, 146.00, 69.00, $tint),
     RGBA(255.00, 146.00, 69.00, $tint)
   ),
-  /* bottom, image */
   url('chatty.png');
 }
 
 .bubldraw {
   background:
-  /* top, transparent red, faked with gradient */
   linear-gradient(
     RGBA(234.00, 74.00, 44.00, $tint),
     RGBA(234.00, 74.00, 44.00, $tint)
   ),
-  /* bottom, image */
   url('Bubldraw.png');
 }
 
 .hintr {
   background:
-  /* top, transparent red, faked with gradient */
   linear-gradient(
     RGBA(0.00, 190.00, 156.00, $tint),
     RGBA(0.00, 190.00, 156.00, $tint)
   ),
-  /* bottom, image */
   url('Hintr.png');
 }
 
 .mmm {
   background:
-  /* top, transparent red, faked with gradient */
   linear-gradient(
     RGBA(252.00, 133.00, 133.00, $tint),
     RGBA(252.00, 133.00, 133.00, $tint)
   ),
-  /* bottom, image */
   url('MateMarrryMurderApp.png');
 }
 
 .hash-stash {
   background:
-  /* top, transparent red, faked with gradient */
   linear-gradient(
     RGBA(49.00, 72.00, 97.00, $tint),
     RGBA(49.00, 72.00, 97.00, $tint)
   ),
-  /* bottom, image */
   url('HashHub.png');
 }
 
 .background {
-  background-position: center;
-  background-size: 100% auto;
-  background-repeat: no-repeat;
+  background-position:          center;
+  background-size:              100% auto;
+  background-repeat:            no-repeat;
 }
 
