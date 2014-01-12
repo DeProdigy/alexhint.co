@@ -66,7 +66,15 @@ section {
 }
 
 .viddy-o {
-  background: #32363F;
+  background:
+  /* top, transparent red, faked with gradient */
+  linear-gradient(
+    RGBA(50.00, 72.00, 96.00, 0.9),
+    RGBA(50.00, 72.00, 96.00, 0.9)
+  ),
+  /* bottom, image */
+  url('ViddyO.png');
+  background-size: cover;
 }
 
 .chatty {
