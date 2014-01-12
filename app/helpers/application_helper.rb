@@ -13,7 +13,7 @@ module ApplicationHelper
   end
 
   def project_link(image, link)
-    link_to image_tag(image, class: 'greyscale project-preview'), link, target: 'blank'
+    link_to image_tag(image, class: 'project-preview'), link, target: 'blank'
   end
 
 
