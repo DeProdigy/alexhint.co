@@ -64,6 +64,15 @@ section {
   margin:             0 15px;
 }
 
+.alex-hint {
+  background:
+  linear-gradient(
+    RGBA(245.00, 71.00, 0.00, $tint),
+    RGBA(245.00, 71.00, 0.00, $tint)
+  ),
+  url('photo-2.PNG');
+}
+
 .viddy-o {
   background:
   // top, transparent, faked with gradient
@@ -118,15 +127,6 @@ section {
     RGBA(49.00, 72.00, 97.00, $tint)
   ),
   url('hashstash.jpg');
-}
-
-.alex-hint {
-  background:
-  linear-gradient(
-    RGBA(245.00, 71.00, 0.00, $tint),
-    RGBA(245.00, 71.00, 0.00, $tint)
-  ),
-  url('photo-2.PNG');
 }
 
 .background {
