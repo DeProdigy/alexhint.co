@@ -9,15 +9,14 @@
 //   font-style:   normal;
 // }
 
+// %helvetica-font {
+//   font-family:        'helvetica_neueultralight', arial;
+// }
+
 $font-color:          white;
 $dark-color:          #222222;
 $background-color:    #F24814;
 $tint:                0.80;
-
-
-// %helvetica-font {
-//   font-family:        'helvetica_neueultralight', arial;
-// }
 
 body {
   font-family: 'Lato', sans-serif;
@@ -31,10 +30,6 @@ section {
   align-items:        center;
   justify-content:    center;
   font-size:          1.25em;
-  // .project-preview {
-  //   width:            65%;
-  //   margin:           1.5rem 0;
-  // }
   h2 {
     font-size:        2.5rem;
     color:            $font-color;
@@ -67,11 +62,6 @@ section {
   height:             50px;
   width:              50px;
   margin:             0 15px;
-}
-
-.shhh {
-  font-weight:        bold;
-  color:              $dark-color;
 }
 
 .viddy-o {

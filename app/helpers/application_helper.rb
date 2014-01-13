@@ -8,7 +8,6 @@ module ApplicationHelper
   end
 
   def mail_link
-    # mail_to "me@domain.com"
     mail_to 'alex.hint.ah@gmail.com', image_tag('mail.png', class: 'icon')
   end
 
