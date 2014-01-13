@@ -61,7 +61,7 @@ section {
   p {
     font-size:        1.6rem;
     color:            $font-color;
-    margin-bottom:    4%;
+    margin-bottom:    3%;
     // @extend %helvetica-font;
   }
 }
@@ -73,9 +73,10 @@ section {
 }
 
 .icon {
+  padding:            25px;
   height:             50px;
   width:              50px;
-  margin:             0 35px;
+  margin:             0;
 }
 
 .alex-hint {
