@@ -12,7 +12,7 @@
 $font-color:          white;
 $dark-color:          #222222;
 $background-color:    #F24814;
-$tint:                0.97;
+$tint:                0.80;
 
 
 %helvetica-font {
@@ -75,7 +75,7 @@ section {
     RGBA(50.00, 54.00, 63.00, $tint)
   ),
   // bottom, image
-  url('ViddyO.png');
+  url('viddyo.jpg');
 }
 
 .chatty {
@@ -84,7 +84,7 @@ section {
     RGBA(255.00, 146.00, 69.00, $tint),
     RGBA(255.00, 146.00, 69.00, $tint)
   ),
-  url('chatty.png');
+  url('chatty.jpg');
 }
 
 .bubldraw {
@@ -93,7 +93,7 @@ section {
     RGBA(234.00, 74.00, 44.00, $tint),
     RGBA(234.00, 74.00, 44.00, $tint)
   ),
-  url('Bubldraw.png');
+  url('bubldraw.jpg');
 }
 
 .hintr {
@@ -102,7 +102,7 @@ section {
     RGBA(0.00, 190.00, 156.00, $tint),
     RGBA(0.00, 190.00, 156.00, $tint)
   ),
-  url('Hintr.png');
+  url('hintr.jpg');
 }
 
 .mmm {
@@ -111,7 +111,7 @@ section {
     RGBA(252.00, 133.00, 133.00, $tint),
     RGBA(252.00, 133.00, 133.00, $tint)
   ),
-  url('MateMarrryMurderApp.png');
+  url('mmm.jpg');
 }
 
 .hash-stash {
@@ -120,7 +120,7 @@ section {
     RGBA(49.00, 72.00, 97.00, $tint),
     RGBA(49.00, 72.00, 97.00, $tint)
   ),
-  url('HashHub.png');
+  url('hashstash.jpg');
 }
 
 .alex-hint {
