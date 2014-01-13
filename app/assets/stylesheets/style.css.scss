@@ -23,7 +23,7 @@ article {
   -webkit-animation-delay: 1s;
   -moz-animation-duration: 3s;
   -moz-animation-delay: 1s;
-  padding:            0 15%;
+  padding:            15%;
 }
 
 body {
@@ -38,18 +38,16 @@ a {
 
 section {
   background:         $background-color;
-  // display:            flex;
-  // justify-content:    center;
   font-size:          1.25em;
   h1 {
-    margin-top:       18%;
+    margin-top:       8%;
     font-size:        5rem;
     color:            $font-color;
     font-weight:      100;
     margin-bottom:    1%;
   }
   h2 {
-    margin-top:       20%;
+    margin-top:       10%;
     font-size:        2.5rem;
     color:            $font-color;
     font-weight:      100;
