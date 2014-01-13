@@ -18,6 +18,13 @@ $dark-color:          #222222;
 $background-color:    #F24814;
 $tint:                0.80;
 
+article {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 1s;
+  -moz-animation-duration: 3s;
+  -moz-animation-delay: 1s;
+}
+
 body {
   font-family:        'Lato', sans-serif;
   font-weight:        100;
@@ -31,11 +38,10 @@ a {
 section {
   background:         $background-color;
   // display:            flex;
-  // align-items:        center;
   // justify-content:    center;
   font-size:          1.25em;
   h1 {
-    margin-top:       25%;
+    margin-top:       20%;
     font-size:        5rem;
     color:            $font-color;
     font-weight:      100;
@@ -52,11 +58,6 @@ section {
     color:            $font-color;
     // @extend %helvetica-font;
   }
-}
-
-.name {
-
-  // @extend %helvetica-font;
 }
 
 .intro {
