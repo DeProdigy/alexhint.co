@@ -23,6 +23,10 @@ body {
   font-weight: 100;
 }
 
+a {
+  text-decoration: none;
+}
+
 section {
   background:         $background-color;
   text-align:         center;
@@ -38,7 +42,7 @@ section {
     // @extend %helvetica-font;
   }
   p {
-    font-size:        1.4rem;
+    font-size:        1.6rem;
     color:            $font-color;
     // @extend %helvetica-font;
   }
