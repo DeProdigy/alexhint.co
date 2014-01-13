@@ -18,6 +18,7 @@
 //= require underscore
 //= require backbone
 //= require one-scroll
+//= require imagesloaded
 //= require app
 
 

@@ -23,4 +23,8 @@ function eventListeners() {
         // $icon.attr('background', '#F96C26');
         // $icon.attr('fill', 'white');
     });
+
+    imagesLoaded( document.querySelector('body'), function( instance ) {
+        console.log('all images are loaded');
+    });
 }
