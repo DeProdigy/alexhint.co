@@ -15,8 +15,13 @@ $background-color:    #F24814;
 $tint:                0.80;
 
 
-%helvetica-font {
-  font-family:        'helvetica_neueultralight', arial;
+// %helvetica-font {
+//   font-family:        'helvetica_neueultralight', arial;
+// }
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
 }
 
 section {
@@ -32,22 +37,24 @@ section {
   // }
   h2 {
     font-size:        2.5rem;
-    color:            $dark-color;
+    color:            $font-color;
     margin:           0;
-    @extend %helvetica-font;
+    font-weight:      100;
+    // @extend %helvetica-font;
   }
   p {
     font-size:        1.4rem;
     color:            $font-color;
-    @extend %helvetica-font;
+    // @extend %helvetica-font;
   }
 }
 
 .name {
   font-size:          5rem;
   margin:             0;
-  color:              $dark-color;
-  @extend %helvetica-font;
+  color:              $font-color;
+  font-weight:        100;
+  // @extend %helvetica-font;
 }
 
 .intro {
