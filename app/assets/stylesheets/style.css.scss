@@ -20,10 +20,6 @@ $tint:                0.80;
 $darker-tint:         0.90;
 
 article {
-  -webkit-animation-duration: 3s;
-  -webkit-animation-delay: 1s;
-  -moz-animation-duration: 3s;
-  -moz-animation-delay: 1s;
   padding:            15%;
 }
 
@@ -41,6 +37,10 @@ section {
   background:         $background-color;
   font-size:          1.25em;
   h1 {
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-duration: 3s;
+    -moz-animation-delay: 1s;
     margin-top:       1%;
     font-size:        5rem;
     color:            $font-color;
@@ -55,6 +55,10 @@ section {
     // @extend %helvetica-font;
   }
   p {
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 3s;
+    -moz-animation-duration: 3s;
+    -moz-animation-delay: 3s;
     font-size:        1.6rem;
     color:            $font-color;
     margin-bottom:    3%;
@@ -69,6 +73,10 @@ section {
 }
 
 .icon {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 5s;
+  -moz-animation-duration: 3s;
+  -moz-animation-delay: 5s;
   padding:            25px;
   height:             50px;
   width:              50px;
