@@ -124,8 +124,8 @@ section {
 .hintr {
   background:
   linear-gradient(
-    RGBA(0.00, 190.00, 156.00, $tint),
-    RGBA(0.00, 190.00, 156.00, $tint)
+    RGBA(0.00, 190.00, 156.00, $darker-tint),
+    RGBA(0.00, 190.00, 156.00, $darker-tint)
   ),
   url('hintr3.jpg');
 }
