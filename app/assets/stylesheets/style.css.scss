@@ -80,8 +80,7 @@ section {
   linear-gradient(
     RGBA(245.00, 71.00, 0.00, $tint),
     RGBA(245.00, 71.00, 0.00, $tint)
-  ),
-  url('photo-2-1-2.jpg');
+  )
 }
 
 .viddy-o {
@@ -138,6 +137,20 @@ section {
     RGBA(49.00, 72.00, 97.00, $tint)
   ),
   url('hashstash3.jpg');
+}
+
+.video-player {
+  // z-index:                      -100;
+  // width:                        120%;
+  // height:                       120%;
+  position: fixed;
+  top: -162px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  z-index: -100;
+  width: 1439px;
+  height: 1000px;
 }
 
 .background {
