@@ -17,14 +17,7 @@ $(document).ready(function($) {
 
 
 function eventListeners() {
-    $('.icon').on('mouseover', function(e) {
-        // $icon = $(e.currentTarget);
-        // console.log(e.currentTarget);
-        // $icon.attr('background', '#F96C26');
-        // $icon.attr('fill', 'white');
-    });
+    $('section').on('mouseover', function(e) {
 
-    imagesLoaded( document.querySelector('body'), function( instance ) {
-        console.log('all images are loaded');
     });
 }
