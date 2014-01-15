@@ -11,7 +11,7 @@ $(document).ready(function($) {
      responsiveFallback: false // You can fallback to normal page scroll by defining the width of the browser in which you want the responsive fallback to be triggered. For example, set this to 600 and whenever the browser's width is less than 600, the fallback will kick in.
   });
   resizeVideo();
-  $(window).on('resize', resizeVideo);
+  // $(window).on('resize', resizeVideo);
 });
 
 function resizeVideo() {
