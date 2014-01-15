@@ -155,8 +155,9 @@ section {
   bottom: 0px;
   right: 0px;
   z-index: -100;
-  width: 1500px;
-  height: 1100px;
+  min-width: 100%;
+  // width: 1500px;
+  // height: 1100px;
 
 
   // width: 100%;
