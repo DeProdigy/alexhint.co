@@ -10,14 +10,19 @@ $(document).ready(function($) {
      loop: false, // You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
      responsiveFallback: false // You can fallback to normal page scroll by defining the width of the browser in which you want the responsive fallback to be triggered. For example, set this to 600 and whenever the browser's width is less than 600, the fallback will kick in.
   });
-    eventListeners();
+  eventListeners();
 });
 
 
 
 
 function eventListeners() {
-    $('section').on('mouseover', function(e) {
-
-    });
+  // $('.video-player').videoBG({
+  //   mp4:'loop.mp4',
+  //   ogv:'loop.ogv',
+  //   webm:'loop.webm',
+  //   poster:'loop.jpg',
+  //   scale:true,
+  //   zIndex:0
+  // });
 }
