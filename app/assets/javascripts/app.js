@@ -21,7 +21,7 @@ function resizeVideo() {
   // debugger
 
   // $('.video-player').attr('width', currentWidth + (currentWidth * 0.5));
-  $('.video-player').attr('height', currentHeight + (currentHeight * 0.5));
+  $('.video-player').attr('height', currentHeight + (currentHeight * 0.3));
 }
 
 
