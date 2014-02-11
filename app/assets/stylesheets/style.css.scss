@@ -53,6 +53,9 @@ section {
     color:            $font-color;
     font-weight:      100;
     // @extend %helvetica-font;
+    &:hover{
+      color: RGBA(255,255,255,0.5)
+    }
   }
   p {
     -webkit-animation-duration: 3s;
@@ -89,7 +92,7 @@ section {
   linear-gradient(
     RGBA(245.00, 71.00, 0.00, $tint),
     RGBA(245.00, 71.00, 0.00, $tint)
-  )
+  );
 }
 
 .viddy-o {
