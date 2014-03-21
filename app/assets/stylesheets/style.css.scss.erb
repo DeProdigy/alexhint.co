@@ -103,7 +103,7 @@ section {
     RGBA(50.00, 54.00, 63.00, $darker-tint)
   ),
   // bottom, image
-  url('viddyo3.jpg');
+  url( <%= asset_path('viddyo3.jpg') %>);
 }
 
 .chatty {
@@ -112,7 +112,7 @@ section {
     RGBA(255.00, 146.00, 69.00, $tint),
     RGBA(255.00, 146.00, 69.00, $tint)
   ),
-  url('chatty3.jpg');
+  url( <%= asset_path('chatty3.jpg') %>);
 }
 
 .bubldraw {
@@ -121,7 +121,7 @@ section {
     RGBA(234.00, 74.00, 44.00, $tint),
     RGBA(234.00, 74.00, 44.00, $tint)
   ),
-  url('bubldraw3.jpg');
+  url( <%= asset_path('bubldraw3.jpg') %>);
 }
 
 .hintr {
@@ -130,7 +130,7 @@ section {
     RGBA(0.00, 190.00, 156.00, $darker-tint),
     RGBA(0.00, 190.00, 156.00, $darker-tint)
   ),
-  url('hintr3.jpg');
+  url( <%= asset_path('hintr3.jpg') %>);
 }
 
 .mmm {
@@ -139,7 +139,7 @@ section {
     RGBA(252.00, 133.00, 133.00, $tint),
     RGBA(252.00, 133.00, 133.00, $tint)
   ),
-  url('mmm3.jpg');
+  url( <%= asset_path('mmm3.jpg') %>);
 }
 
 .hash-stash {
@@ -148,7 +148,7 @@ section {
     RGBA(49.00, 72.00, 97.00, $tint),
     RGBA(49.00, 72.00, 97.00, $tint)
   ),
-  url('hashstash3.jpg');
+  url( <%= asset_path('hashstash3.jpg') %>);
 }
 
 .video-player {
@@ -178,9 +178,9 @@ section {
   // width: 1800px;
   // height: 1200px;
 
-  background: url('main-screen-shot.png');
+/*  background: url(<%= asset_path('main-screen-shot.png') %>);
   background-size: cover;
-  background-position: center;
+  background-position: center;*/
 }
 
 .background {
