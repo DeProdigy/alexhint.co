@@ -1,4 +1,4 @@
-TODO
+<!-- TODO
 
 add favicon
 
@@ -22,4 +22,4 @@ cursor over text -- be a text cursor
 
 sh#t!
 
-change the boldness of ALEX HINT
+change the boldness of ALEX HINT -->
