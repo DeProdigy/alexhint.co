@@ -98,6 +98,17 @@ section {
   );
 }
 
+.saffron {
+  background:
+  // top, transparent, faked with gradient
+  linear-gradient(
+    RGBA(194, 56, 36, $tint),
+    RGBA(194, 56, 36, $tint)
+  ),
+  // bottom, image
+  url( <%= asset_path('saffron2.jpg') %>);
+}
+
 .viddy-o {
   background:
   // top, transparent, faked with gradient
@@ -121,8 +132,10 @@ section {
 .bubldraw {
   background:
   linear-gradient(
-    RGBA(234.00, 74.00, 44.00, $tint),
-    RGBA(234.00, 74.00, 44.00, $tint)
+    // RGBA(234.00, 74.00, 44.00, $tint),
+    // RGBA(234.00, 74.00, 44.00, $tint)
+    RGBA(127, 140, 141, $darker-tint),
+    RGBA(127, 140, 141, $darker-tint)
   ),
   url( <%= asset_path('bubldraw3.jpg') %>);
 }
