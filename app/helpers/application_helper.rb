@@ -1,6 +1,11 @@
 module ApplicationHelper
+
   def github_link(link)
     link_to image_tag('github2.png', class: 'animated fadeInUp icon'), 'https://github.com/DeProdigy' + link, class: 'link', target: 'blank'
+  end
+
+  def blog_link
+    link_to image_tag('pencil.png', class: 'animated fadeInUp icon'), 'https://medium.com/@hintology', class: 'link', target: 'blank'
   end
 
   def twitter_link
@@ -11,11 +16,12 @@ module ApplicationHelper
     mail_to 'alex.hint.ah@gmail.com', image_tag('mail2.png', class: 'animated fadeInUp icon')
   end
 
-  def instagram_link
-    link_to image_tag('instagram2.png', class: 'animated fadeInUp icon'), 'http://instagram.com/hintography', class: 'link', target: 'blank'
+  def resume_link
+    link_to image_tag('briefcase.png', class: 'animated fadeInUp icon'), 'resume.pdf', class: 'link', target: 'blank'
   end
 
   def linkedin_link
     link_to image_tag('linkedin2.png', class: 'animated fadeInUp icon'), 'http://linkedin.com/in/alexhint/', class: 'link', target: 'blank'
   end
+
 end

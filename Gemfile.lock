@@ -68,7 +68,7 @@ GEM
     diff-lcs (1.2.5)
     docile (1.1.1)
     erubis (2.7.0)
-    eventmachine (1.0.3)
+    eventmachine (1.0.7)
     execjs (2.0.2)
     ffi (1.9.3)
     formatador (0.2.4)
