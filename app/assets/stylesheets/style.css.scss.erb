@@ -96,13 +96,34 @@ section {
   background:
   // top, transparent, faked with gradient
   linear-gradient(
-    RGBA(50.00, 54.00, 63.00, $darker-tint),
-    RGBA(50.00, 54.00, 63.00, $darker-tint)
+    RGBA(44.00, 62.00, 80.00, $darker-tint),
+    RGBA(44.00, 62.00, 80.00, $darker-tint)
   ),
   // bottom, image
   url( <%= asset_path('viddyo.jpg') %>);
 }
 
+.magnetic {
+  background:
+  // top, transparent, faked with gradient
+  linear-gradient(
+    RGBA(138.00, 193.00, 220.00, $darker-tint + 0.05),
+    RGBA(138.00, 193.00, 220.00, $darker-tint + 0.05)
+  ),
+  // bottom, image
+  url( <%= asset_path('magnetic.jpg') %>);
+}
+
+.elsaurus {
+  background:
+  // top, transparent, faked with gradient
+  linear-gradient(
+    RGBA(155.00, 89.00, 182.00, $darker-tint + 0.03),
+    RGBA(155.00, 89.00, 182.00, $darker-tint + 0.03)
+  ),
+  // bottom, image
+  url( <%= asset_path('elsaurus.jpg') %>);
+}
 .video-player {
   position: fixed;
   top: -162px;
@@ -119,3 +140,10 @@ section {
   background-repeat:            no-repeat;
 }
 
+p::selection {
+  background: #ffb7b7;
+}
+
+p::-moz-selection {
+  background: #ffb7b7;
+}
