@@ -17,7 +17,7 @@ module ApplicationHelper
   end
 
   def resume_link
-    link_to image_tag('briefcase.png', class: 'animated fadeInUp icon'), 'https://drive.google.com/file/d/1CJxa0U-aGJqH3lSEkWb4RkHZSaEZyu7a/view', class: 'link', target: 'blank'
+    link_to image_tag('briefcase.png', class: 'animated fadeInUp icon'), 'https://drive.google.com/file/d/1O8BUOdDQRV_cvS3fsRc-JSr5KxClU3rn/view', class: 'link', target: 'blank'
   end
 
   def linkedin_link
